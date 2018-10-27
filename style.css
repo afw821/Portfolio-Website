@@ -1,16 +1,7 @@
 
-/* body{
-    width:100%;
-    height:100%;
-} */
 .parallax {
-    /* The image used */
     background-image: url("assets/mtnlake2.jpg");
-
-    /* Set a specific height */
     min-height: 750px; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,13 +9,8 @@
     opacity:0.8;
 }
 .parallax2 {
-    /* The image used */
     background-image: url("assets/pexels-photo-154140.jpeg");
-
-    /* Set a specific height */
     min-height: 900px; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,14 +18,8 @@
     opacity:0.8;
 }
 .parallax3 {
-    /* The image used */
     background-image: url("assets/hooch.jpg");
-
-    /* Set a specific height */
     min-height: 1000px; 
-    
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -47,13 +27,8 @@
     opacity:0.8;
 }
 .parallax4{
-    /* The image used */
     background-image: url("assets/cades\ cove.jpg");
-
-    /* Set a specific height */
     min-height: 1000px; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,13 +36,8 @@
     opacity:0.8;
 }
 .parallax5{
-    /* The image used */
-    
 background-image:url('assets/marines2.jpg');
-    /* Set a specific height */
     min-height:1000px;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -91,9 +61,6 @@ background-image:url('assets/marines2.jpg');
 .hide{
     display:none;
 }
-
- 
-
 .link-btn{
     opacity:0.7;
 }
@@ -141,7 +108,7 @@ h4{
 .second-img{
     border-radius:50%;
 }
-#Wrapper{
+/* #Wrapper{
 	align-items: center;
 	background-color: #EEEFF7;
 	display: flex;
@@ -160,13 +127,13 @@ h4{
 }
 
 #Slider{
-	/* border: 20px solid #1C1D21; */
+	border: 20px solid #1C1D21; 
 	height: 300px;
 	overflow: hidden;
 	width: 600px;
 }
 
-#Slider img{
+/* #Slider img{
 	height: 300px;
 	width: 600px;
 	transition: all 1s;
@@ -178,9 +145,9 @@ h4{
 	height: 30px;
 	position: absolute;
 	width: 600px;
-}
+} */
 
-#Arrows i{
+/* #Arrows i{
 	background-color: rgba(255, 255, 255, .25);
 	color: #1C1D21;
 	cursor: pointer;
@@ -201,7 +168,7 @@ h4{
 #Arrows i:hover{
 	background-color: rgba(28,29,33, .75);
 	color: #EEEFF7;
-}
+}  */
 
 /* h1{
 	color: #1C1D21;
@@ -216,7 +183,7 @@ h2{
 	font-size: 1.5em;
 	padding: 20px;
 } */
-
+/* 
 #MeLink{
   background-color: rgba(255,255,255, 0);
   border: 10px solid #1C1D21;
@@ -245,7 +212,7 @@ h2{
   right: 20px;
   width: 80px;
   z-index: 1;
-}
+} */
 .media{
     background-color: #f5f5f5;
     padding: 70px 0;
