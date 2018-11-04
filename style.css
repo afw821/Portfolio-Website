@@ -58,13 +58,16 @@ background-image:url('assets/marines2.jpg');
     background-color:white;
     color:black;
 }
+.github-link{
+    text-decoration: none;
+}
 .hide{
     display:none;
 }
 .link-btn{
     opacity:0.7;
 }
-h4{
+.h4{
     color:white;
 }
 .link-btn2{
@@ -80,6 +83,11 @@ h4{
 .container1-header{
     margin-top:25px;
     font-size:30px;
+    font-family: 'Lato Regular'
+}
+.projects-repo-header{
+    margin-top:25px;
+    font-size:26px;
     font-family: 'Lato Regular'
 }
 .link-btn:hover {
@@ -101,6 +109,12 @@ h4{
 .card{
     box-shadow: 10px 10px 5px grey;
 }
+.card-top{
+    margin-bottom:35px
+}
+.card-bottom{
+    margin-bottom:35px;
+}
 .first-img{
     border-radius: 50%;
     margin-top:20px;  
@@ -108,111 +122,6 @@ h4{
 .second-img{
     border-radius:50%;
 }
-/* #Wrapper{
-	align-items: center;
-	background-color: #EEEFF7;
-	display: flex;
-	height: 500px;
-	justify-content: center;
-	width: 1000px;
-}
-
-#Slideshow{
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	overflow: hidden;
-	position: relative;
-}
-
-#Slider{
-	border: 20px solid #1C1D21; 
-	height: 300px;
-	overflow: hidden;
-	width: 600px;
-}
-
-/* #Slider img{
-	height: 300px;
-	width: 600px;
-	transition: all 1s;
-}
-
-#Arrows{
-	display: flex;
-	justify-content: space-between;
-	height: 30px;
-	position: absolute;
-	width: 600px;
-} */
-
-/* #Arrows i{
-	background-color: rgba(255, 255, 255, .25);
-	color: #1C1D21;
-	cursor: pointer;
-	height: 30px;
-	padding: 15px;
-
-	transition: .5s, color .5s;
-}
-
-#Arrows i:first-of-type{ 
-	padding-right: 20px;
-}
-
-#Arrows i:last-of-type{ 
-	padding-left: 20px;
-}
-
-#Arrows i:hover{
-	background-color: rgba(28,29,33, .75);
-	color: #EEEFF7;
-}  */
-
-/* h1{
-	color: #1C1D21;
-	font-family: righteous;
-	font-size: 2.5em;
-	padding: 20px;
-}
-
-h2{
-	color: #1C1D21;
-	font-family: "Open Sans";
-	font-size: 1.5em;
-	padding: 20px;
-} */
-/* 
-#MeLink{
-  background-color: rgba(255,255,255, 0);
-  border: 10px solid #1C1D21;
-  border-radius: 80px;
-  bottom: 20px;
-  height: 80px;
-  overflow: hidden;
-  position: fixed;
-  right: 20px;
-  width: 80px;
-  z-index: 2;
-  
-  transition: .5s;
-}
-
-#MeLink:hover{
-  background-color: rgba(255,255,255, .25);
-}
-
-#Me{
-  border: 10px solid #1C1D21;
-  border-radius: 80px;
-  bottom: 20px;
-  height: 80px;
-  position: fixed;
-  right: 20px;
-  width: 80px;
-  z-index: 1;
-} */
 .media{
     background-color: #f5f5f5;
     padding: 70px 0;

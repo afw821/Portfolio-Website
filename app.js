@@ -20,7 +20,7 @@
             $('.link-btn4').removeClass('hide');
             $('.card-col-two').addClass('hide');
         }
-        $('.btn').on('click', showAbout);
+        $('.link-btn3').on('click', showAbout);
     });
 })(jQuery);
 
@@ -42,6 +42,7 @@ const showContact = function(){
     
     const contactForm = (`<div class="row d-flex justify-content-center text-center page-row">
     <div class="col-md-6">
+    
 <form>
     <div class="row">
             <div class="col">
@@ -64,6 +65,8 @@ const showContact = function(){
   </form>
   </div>
   </div>`)
+
+
 $('.body').addClass('hide');
 $('.parallax5').removeClass('hide');
 $('.parallax5').append(contactForm);
