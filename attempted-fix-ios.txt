@@ -1,0 +1,45 @@
+.parallax:after {
+    content:"";
+    position:fixed; /* stretch a fixed position to the whole screen */
+    top:0;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    left:0;
+    right:0;
+    z-index:-1; /* needed to keep in the background */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+.parallax1:after {
+    background-image: url("assets/mtnlake2.jpg"); 
+}
+.parallax1 {
+    min-height: 750px;
+}
+.parallax2:after {
+    background-image: url("assets/pexels-photo-154140.jpeg");
+}
+.parallax2 {
+    min-height: 900px;
+}
+.parallax3:after {
+    background-image: url("assets/hooch.jpg");
+}
+.parallax3 {
+    min-height: 1000px;
+}
+.parallax4:after {
+    background-image: url("assets/cades\ cove.jpg");
+}
+.parallax4 {
+    min-height: 1000px;
+}
+.parallax5:after {
+    background-image:url('assets/marines2.jpg');
+}
+.parallax5 {
+    min-height:1000px;
+}
