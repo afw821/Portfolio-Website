@@ -8,12 +8,8 @@
                 $('.nav-top').fadeIn();
             }
         });
-    });
-})(jQuery);
 
-//This function is what shows the pictures in the about me section when the button is clicked
-(function ($) {
-    $(document).ready(function () {
+        //This function is what shows the pictures in the about me section when the button is clicked
         const showAbout = function () {
             $('.card').removeClass('hide');
             $('.link-btn3').addClass('hide');
@@ -21,26 +17,18 @@
             $('.card-col-two').addClass('hide');
         }
         $('.link-btn3').on('click', showAbout);
-    });
-})(jQuery);
 
-//This function will collapse the images in the about section 
-(function ($) {
-    $(document).ready(function () {
+        //This function will collapse the images in the about section 
         const collapseSlideShow = function () {
             $('.card').addClass('hide');
             $('.link-btn3').removeClass('hide');
             $('.link-btn4').addClass('hide');
         }
         $('.link-btn4').on('click', collapseSlideShow);
-    });
-})(jQuery);
 
+        const showContact = function () {
 
-
-const showContact = function(){
-    
-    const contactForm = (`<div class="row d-flex justify-content-center text-center page-row">
+            const contactForm = (`<div class="row d-flex justify-content-center text-center page-row">
     <div class="col-md-6">
     
 <form>
@@ -67,45 +55,27 @@ const showContact = function(){
   </div>`)
 
 
-$('.body').addClass('hide');
-$('.parallax5').removeClass('hide');
-$('.parallax5').append(contactForm);
+            $('.body').addClass('hide');
+            $('.parallax5').removeClass('hide');
+            $('.parallax5').append(contactForm);
 
 
-}
-$('.contact-btn').on('click', showContact);
+        }
+        $('.contact-btn').on('click', showContact);
 
 
+        $('a[href*="#"]:not([href="#"])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 2000);
+                    return false;
+                }
+            }
+        });
 
-
-
-// (function ($) {
-//     $(document).ready(function () {
-//      const slideShow = function(){
-//          $('#slider').append($('#slider img:first-of-type'));
-//      }
-//      $('#next').on('click', slideShow);
-//     });
-// })(jQuery);
-
-
-
-
-
-// $("#Prev").click(function(){
-// 	$("#Slider").append($("#Slider img:first-of-type"));
-// });
-
-// $("#Next").click(function(){
-// 	$("#Slider").prepend($("#Slider img:last-of-type"));
-// });
-
-
-
-// $("#Next").click(function(){
-// 	$("#Slider").append($("#Slider img:first-of-type"));
-// });
-
-// $("#Prev").click(function(){
-// 	$("#Slider").prepend($("#Slider img:last-of-type"));
-// });
+    });
+})(jQuery);
