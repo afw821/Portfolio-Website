@@ -1,6 +1,8 @@
 # Portfolio-Website
 An updated and more complete portfolio website
 
+This site is now published at http://afwatkins.com through google domains!
+
 This site is still under construction!!!
 
 In this updated portfolio site I implemented a parallax scrolling effect. I set a class for each of the parallax divs to style each accordingly. Some of the parallax images have elements on top of them. These elements were included inside of the parallax div, otherwise the other elements were included in a container div outside of the parallax div. The container divs include the about me, projects and contact section.
