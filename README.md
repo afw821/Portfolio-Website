@@ -1,7 +1,7 @@
 # Portfolio-Website
 An updated and more complete portfolio website
 
-This site is now published at http://afwatkins.com through google domains!
+This site is now published at www.afwatkins.com through google domains!
 
 This site is still under construction!!!
 
