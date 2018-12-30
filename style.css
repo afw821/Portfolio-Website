@@ -41,6 +41,9 @@
   padding-top: 20px;
   text-align: center;
 }
+.nav-title{
+  font-family: 'Archivo Black', sans-serif !important;
+}
 .nav-top {
   opacity: 0.8;
   height: 100px;
