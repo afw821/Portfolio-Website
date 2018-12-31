@@ -1,5 +1,6 @@
 //This shows the contact form when the contact me button is clickedd on the bottom of the page
 const showContact = function() {
+  $('.parallax5').empty();
   const contactForm = (`<div class="input-container">
             <label>
               <input type="text" />
